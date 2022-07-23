@@ -100,3 +100,16 @@
     margin: 10px;
     }
   }
+
+  @media only screen and (max-width: 300px) {
+    body {
+      background-color: lightblue;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      margin-left: 20px;
+    }
+   div > p {
+    text-align: center;
+    margin: 10px;
+    }
+  }
